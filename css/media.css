@@ -1,0 +1,204 @@
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .header__wrapper-info {
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+ }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .header {
+  display: block;
+  max-height: 100vh;
+  padding: 0 10px;
+ }
+
+ .header__title {
+  max-width: 250px;
+  margin-left: 0;
+ }
+
+ .header__wrapper-info {
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+ }
+
+ .header__vesta {
+  padding: 10px;
+ }
+
+ .header__options {
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+ }
+
+ .header__engine-wrapper,
+ .header__transmission-wrapper,
+ .header__addOptions-wrapper {
+  justify-content: center;
+  align-items: start;
+ }
+
+
+ /*мобильное меню */
+
+ .header__menu-icon {
+  display: inline-block;
+ }
+
+ .header__vesta {
+  max-width: 60%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px black;
+  overflow-y: scroll;
+  transform: translateX(-200%);
+ }
+
+
+ .active-calculator {
+  transform: translateX(-0%);
+  z-index: 3;
+ }
+}
+
+@media (min-width: 399px) and (max-width: 575.98px) {
+
+ .header {
+  display: block;
+  max-height: 100vh;
+  padding: 0 10px;
+ }
+
+ .header__title {
+  max-width: 250px;
+  margin-left: 0;
+ }
+
+ .header__wrapper-info {
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+ }
+
+ .header__vesta {
+  padding: 10px;
+ }
+
+ .header__options {
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+ }
+
+ .header__engine-wrapper,
+ .header__transmission-wrapper,
+ .header__addOptions-wrapper {
+  justify-content: center;
+  align-items: start;
+ }
+
+
+ /*мобильное меню */
+
+ .header__menu-icon {
+  display: inline-block;
+ }
+
+ .header__vesta {
+  max-width: 60%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px black;
+  overflow-y: scroll;
+  transform: translateX(-200%);
+ }
+
+
+ .active-calculator {
+  transform: translateX(-0%);
+  z-index: 3;
+ }
+
+}
+
+@media (min-width: 200.98px) and (max-width: 398.98px) {
+
+ .header {
+  display: block;
+  max-height: 100vh;
+  padding: 0 10px;
+
+ }
+
+ .header__title {
+  max-width: 270px;
+  margin-left: 0;
+ }
+
+ .header__wrapper-info {
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+ }
+
+ .header__vesta {
+  padding: 10px;
+ }
+
+ .header__calculator-title {
+  font-size: 18px;
+ }
+
+ .header__options {
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+ }
+
+ .header__engine-wrapper,
+ .header__transmission-wrapper,
+ .header__addOptions-wrapper {
+  justify-content: center;
+  align-items: start;
+ }
+
+
+
+ /*мобильное меню */
+
+ .header__menu-icon {
+  display: inline-block;
+ }
+
+ .header__vesta {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px black;
+  overflow-y: scroll;
+  transform: translateX(-200%);
+ }
+
+
+ .active-calculator {
+  transform: translateX(-0%);
+  z-index: 3;
+ }
+}

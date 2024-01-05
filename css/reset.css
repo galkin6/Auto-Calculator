@@ -1,0 +1,106 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+button::-moz-focus-inner{
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a{
+  color:#000;
+}
+
+input{
+  font-family: inherit;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+/*убрать стрелочки в input type:number*/
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+/*убрать крестик в ms explorer*/
+input::-ms-clear{display: none;}
